@@ -1,5 +1,5 @@
 build:
- run:  echo $BUILD_CAUSE
+ run:  echo <%= $build.cause.name %>
 environment: 
   language: java
 

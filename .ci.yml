@@ -4,6 +4,5 @@ environment:
   language: java
   
 plugins: 
-  - JUnitResultArchiver: 
-           testResults: '**/target/surefire-reports/TEST-*.xml'
+  - junit: '**/target/surefire-reports/TEST-*.xml'
 

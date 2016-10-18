@@ -2,7 +2,4 @@ build:
  run:  echo <%= build.cause.name %>
 environment: 
   language: java
-  
-plugins: 
-  - junit: '**/target/surefire-reports/TEST-*.xml'
 

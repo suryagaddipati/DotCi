@@ -1,5 +1,7 @@
 build:
- run:  echo <%= build.cause.name %>
+ run: 
+   meow1: echo <%= build.cause.name %>
+   meow2: echo meow2
 environment: 
   language: java
 

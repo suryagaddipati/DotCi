@@ -1,6 +1,6 @@
 build:
  run: 
-   meow1: echo <%= build.cause.name %>
+   meow1: sleep 10000
    meow2: echo meow2
 environment: 
   language: java

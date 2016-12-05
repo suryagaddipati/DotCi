@@ -1,7 +1,5 @@
 build:
- run: 
-   meow1: sleep 10000
-   meow2: echo meow2
+ run: sleep 1000
 environment: 
   language: java
 

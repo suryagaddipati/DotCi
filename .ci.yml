@@ -1,5 +1,2 @@
-build:
- run: sleep 1000
-environment: 
-  language: java
+run: sleep 1000
 

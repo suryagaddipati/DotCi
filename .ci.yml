@@ -1,2 +1,2 @@
-run: sleep 1000
-
+run:
+  test: 'npm test'

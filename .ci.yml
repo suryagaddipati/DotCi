@@ -1,2 +1,3 @@
-run:
- test: 'npm test'
+build:
+ run:
+   test: 'npm test'
